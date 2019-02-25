@@ -6,7 +6,7 @@
 package cse360assign2;
 
 /**
- * Represents a calculator that can add, subtract, multiply and divide two integers.
+ * Represents a calculator that can add, subtract, multiply and divide two integers. 
  * @author melaniehendricks
  * 
  */
@@ -23,7 +23,6 @@ public class Calculator
 	 * Represents a constructor that sets initial total to 0 and
 	 * ensures that first number in the history is 0. 
 	 */
-<<<<<<< HEAD
 	public Calculator () 
 	{
 		total = 0;  
@@ -31,18 +30,6 @@ public class Calculator
 		operation = number + " "; 
 		getHistory();
 		
-=======
-	public int getTotal () {
-		return total;
-	}
-	
-	/**
-	 * addition function
-	 * @param value
-	 */
-	public void add (int value) {
-		total = total + value;
->>>>>>> refs/remotes/origin/master
 	}
 	
 	
@@ -51,7 +38,6 @@ public class Calculator
 	 * Gets total
 	 * @return total An integer that represents the total after an operation 
 	 */
-<<<<<<< HEAD
 	public int getTotal () 
 	{
 		return total;
@@ -73,10 +59,6 @@ public class Calculator
 		total = total + value;
 		getTotal();
 		
-=======
-	public void subtract (int value) {
-		total = total - value;
->>>>>>> refs/remotes/origin/master
 	}
 	
 	
@@ -87,7 +69,6 @@ public class Calculator
 	 * Subtracts value from total. 
 	 * @param value An integer to be used in an operation. 
 	 */
-<<<<<<< HEAD
 	public void subtract (int value) 
 	{
 		number = Integer.toString(value);
@@ -95,10 +76,6 @@ public class Calculator
 		getHistory();
 		total = total - value;
 		getTotal();
-=======
-	public void multiply (int value) {
-		total = total * value;
->>>>>>> refs/remotes/origin/master
 	}
 	
 	
@@ -109,7 +86,6 @@ public class Calculator
 	 * Multiplies total by value 
 	 * @param value An integer to be used in an operation. 
 	 */
-<<<<<<< HEAD
 	public void multiply (int value) 
 	{
 		number = Integer.toString(value);
@@ -117,14 +93,6 @@ public class Calculator
 		getHistory();
 		total = total * value;
 		getTotal();
-=======
-	public void divide (int value) {
-		if (value == 0){
-			total = 0;
-		}
-		else
-			total = total / value;
->>>>>>> refs/remotes/origin/master
 	}
 	
 	

@@ -119,6 +119,7 @@ public class Calculator
 	
 	
 	
+	
 	/**
 	 * Gets history of all actions. 
 	 * @return A String representing the history of all values and 

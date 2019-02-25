@@ -7,7 +7,6 @@ package cse360assign2;
 
 /**
  * Represents a calculator that can add, subtract, multiply and divide two integers.
- * Can also display the history of numbers and operations.  
  * @author melaniehendricks
  * 
  */

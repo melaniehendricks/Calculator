@@ -126,6 +126,6 @@ public class Calculator
 	 */
 	public String getHistory () 
 	{
-		return operation;	
+		return operation;
 	}
 }
